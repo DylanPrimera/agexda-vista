@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media(max-width: 576px){
+    .img-texto{
+        width: 50%!important;
+    }
+}
+
+.img-texto{
+    float: left;
+    width: 50%;
+
+}
+
+.sub-contenedor{
+    width: 50%;
+    float: right;
+    text-align: left;
+    justify-content: end;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+@media(max-width: 576px){
+    .sub-contenedor{
+        width: 100%!important;
+        float: left;
+        display: inline-block;
+        overflow: hidden;
+        
+    }
+}
